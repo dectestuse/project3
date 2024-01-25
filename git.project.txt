@@ -1,0 +1,4 @@
+from django.html import HttpResponse
+
+def index(request):
+    return index("Welcome to my django application")
